@@ -1,0 +1,830 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/5.png);
+    background-size: cover;
+    position: center;
+    /* background-color: yellow; */
+    display: flex;
+    overflow: hidden;
+}
+/* main body starts */
+
+.main .nav-bar{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    z-index: 500;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: 1px solid rgb(212, 211, 211);
+     
+}
+.main .nav-bar .cont{
+    font-size: 20px;
+    color: green   ;
+    border:1px solid green;
+    float: right;
+    display: none;
+    left: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin:20px 10px  ;
+}
+.main .nav-bar ul{
+    float: right;
+    padding: 30px;
+ 
+}
+.main .nav-bar ul li{
+    display: inline;
+    padding: 10px 20px;
+    
+}
+.main .nav-bar ul li a{
+    text-decoration: none;
+    color: green;
+    font-weight: normal;
+  
+}
+.main .nav-bar ul li a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid green;
+    color: rgb(243, 121, 8);
+    transition: 0.1s ease-in-out;
+
+}
+.welcome-text{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin: 250px 30px;
+}
+.welcome-text h1{
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+}
+.welcome-text p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+/* main body ends  */
+/* about me section starts */
+.about-me{
+    width: 100%;
+    height: auto;
+    /* background-color: tan; */
+}
+.about-me .about{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 220px;
+    padding-right: 220px;
+
+}
+.about-me .about h4{
+    text-transform: capitalize;
+    color: green;
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.about-me .about h1{
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    padding: 15px 0px 20px 0px;
+    font-weight: bold;
+}
+.about-me .about{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+.about-me .about  p{
+    line-height: 30px;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+    /* background-color: tan; */
+    padding: 15px 5px 20px 5px;
+    
+}
+.body .row-11{
+    width: 98%;
+    height: 50px;
+    /* background-color: white; */
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 18px;
+   
+}
+.body .row-2{
+    width: 100%;
+    height: 250px;
+    /* background-color: darkblue; */
+    padding:10px;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.body .row-2 .row-1{
+    width: 30%;
+    height: auto;
+    /* background-color: tan; */
+    margin: 15px;
+    /* padding:20px 0px 0px 0px; */
+}
+.body .row-2 .row-1 .col-1{
+    width: 100%;
+    height: 20px;
+    /* background-color: darkcyan; */
+    display: flex;
+    
+}
+.body .row-2 .row-1 .col-1 .left{
+    font-family: 'Nunito', sans-serif;
+    width: 50%;
+    font-size: 14px;
+    padding-left: 0px;
+    text-align: start;
+    font-weight: bold;
+    
+}
+.body .row-2 .row-1 .col-1 .right{
+    width: 50%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    float: right;
+    padding-top: 5px;
+    color: rgba(170, 168, 168, 0.753);
+}
+
+
+.body .row-2 .row-1 .col-1 {
+    text-align: right;
+    
+}
+.body .row-2 .row-1 .col-2{
+    width: 100%;
+    height: 4px;
+    background-color: rgba(126, 125, 125, 0.383);
+    margin-bottom: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border:none
+    
+
+    
+}
+.body .row-2 .row-1 .col-2 .row-1{
+    
+    height: 4px;
+    background:linear-gradient( to right,rgb(53, 162, 44) 0%, rgb(14, 168, 207) 100%) ;
+    background-origin: left;
+    border-radius: 5px;
+    margin: 0px;
+
+}
+/* my services section  starts*/
+    .my-Services{
+        width: 100%;
+        height: auto;
+        background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(images/5a.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: center;
+        justify-content: center;
+        flex-flow: row nowrap;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        
+    }
+    .my-Services .title{
+        width: 100%;
+        height: 100px;
+        /* background-color: tan; */
+        margin: 15px 0px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #fff;
+    }
+    .fa-solid{
+        font-size: 30px;
+        margin-top: 15px;
+        color: green;
+       
+
+    }
+    
+    .my-Services .title h4{
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.1rem;
+        padding: 10px 0px;
+        color: green;
+        font-weight: bold;
+
+    }
+    .my-Services .title h1{
+        font-family: 'Nunito', sans-serif;;
+        font-size: 3rem;
+        padding: 10px 0px;
+        font-weight: normal;
+
+    }
+    .my-Services .what-i-can-do{
+        width: 90%;
+        height: auto;
+        background-color: rgba(240, 240, 240, 0.13);
+        margin-left: 50px;
+        border-radius: 10px;
+        justify-content: center;
+        text-align: center;
+        line-height: 50px;
+        font-family: 'Nunito', sans-serif;
+        padding-bottom: 20px;
+        font-weight: normal;
+        color: white;
+        
+
+    }
+    .my-Services .what-i-can-do:hover {
+        color: white;
+
+        
+    }
+    .fa-solid{
+        color: green;
+    }
+    .my-Services .what-i-can-do:hover{
+        background:linear-gradient(to right,rgba(13, 160, 3, 0.917), rgba(2, 92, 167, 0.979)) ;
+        transition: 0.3s ;
+        cursor: pointer;
+    }
+    .my-Services .what-i-can-do:hover i.fa-solid{
+        color: white;
+    }
+    .my-Services .what-i-can-do h1{
+        font-size: 25px;
+        font-weight: normal;
+        
+    }
+    .my-Services .what-i-can-do ul{
+        font-size: 15px;
+        list-style-type: none;
+        
+    }
+    .my-Services .what-i-can-do img{
+        padding: 25px 0px;
+    }
+
+/* my services section  ends*/
+/* portfolio section begins  */
+.portfolio{
+    width: 100%;
+    height: auto;
+    /* background-color: tan; */
+}
+.portfolio .title{
+    width: 100%;
+    height: 70px;
+    /* background-color: tan; */
+    margin: 15px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.portfolio .title h5{
+    font-family:'Nunito', sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    color: green;
+}
+.portfolio .title h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+.portfolio .body{
+    width: 100%;
+    height: 250px;
+    /* background-color: darkblue; */
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 40px 0px 40px 15px;
+    border-top: 0.2px solid rgba(128, 128, 128, 0.349);
+    border-bottom: 0.2px solid rgba(128, 128, 128, 0.349);
+    margin: 15px 0px 15px 0px;
+}
+.portfolio .body .left{
+    width: 45%;
+    height: 100%;
+    margin-right: 15px;
+    
+}
+.portfolio .body .left img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio .body .right{
+    width: 45%;
+    height: 100%;
+    margin-left:15px ;
+}
+.portfolio .body .right h1{
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    padding-bottom: 15px;
+
+}
+.portfolio .body .right p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    padding-bottom: 30px;
+    line-height: 25px;
+
+
+}
+.portfolio .body .right .btn{
+    padding: 10px 25px;
+    background-color: green;
+    border-radius: 25px;
+    float: left;
+    color: white;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+
+/* portfolio section ends  */
+/* testimonial section begins  */
+.testimonial{
+    width: 100%;
+    height: auto;
+    /* background-color: tan; */
+    padding: 15px 0px 15px 0px;
+}
+.testimonial .title{
+    width: 100%;
+    height: 20vh;
+    /* background-color: white; */
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.testimonial .title h4{
+    color: green;
+
+}
+.testimonial .title h1{
+    font-weight: normal;
+    font-size: 35px;
+    text-transform: capitalize;
+    padding-top: 5px;
+
+}
+.testimonial .testimonies{
+    width: 100%;
+    height: auto;
+    /* background-color: cyan; */
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.testimonial .testimonies .card{
+    width:25%;
+    height: 100%;
+    background-color: white;
+    margin: 0px 10px 10px 10px;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    border: 0.5px solid rgba(128, 128, 128, 0.534);
+}
+.testimonial .testimonies .card h3{
+    color: green;
+    padding-bottom: 10px;
+}
+.testimonial .testimonies .card p {
+    line-height: 25px;
+    font-size: 15px;
+}
+/* testimonial section ends  */
+/* contact me section begins */
+.contact-me{
+    width: 100%;
+    height: auto;
+    /* background-color: tan; */
+    padding: 15px 0px 15px 0px;
+}
+.contact-me .top{
+    width: 100%;
+    height: 100px;
+    /* background-color: darkblue; */
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+.contact-me .top h4{
+    font-size: 13px;
+    color: green;
+} 
+.contact-me .top h1{
+    font-size: 35px;
+    font-weight: normal;
+}
+.contact-me .bottom{
+    width: 100%;
+    height: 300px;
+    /* background-color: tan; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.contact-me .bottom .left{
+    width: 45%;
+    height: auto;
+    /* background-color: aqua; */
+    margin-right: 20px;
+    justify-content: center;
+    
+
+}
+.contact-me .bottom .left input{
+    width: 455px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 125, 125, 0.616);
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+
+}
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    width: 450px;
+    height: 70px;
+    border-radius: 5px;
+    padding: 5px 0px 0px 10px;
+    font-size: 12px;
+    margin-left: 10px;
+
+}
+form .btn{
+    padding: 15px 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
+.contact-me .bottom .right {
+    width: 45%;
+    height: auto;
+    /* background-color: blue; */
+}
+.contact-me .bottom .right .address{
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-color: #dfddddb9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: rgb(61, 61, 61);
+    
+
+}
+.contact-me .bottom .right .address p{
+    text-transform: capitalize;
+}
+/* contact me section  ends*/
+/* footer begins  */
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.footer .icons{
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+   padding-top: 20px;
+}
+
+
+.footer .icons .circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 0.5px solid rgba(255, 255, 255, 0.157);
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.footer .icons .circle:hover{
+    border: 0.5px solid green;
+    transition: 0.3s;
+}
+.footer .icons .circle:hover a {
+   color: green;
+    transition: 0.3s;
+}
+.footer .icons .circle a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.footer .bottom{
+    color:rgb(161, 159, 159);
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+}
+/* footer ends */
+
+
+@media only screen and (max-width:750px) {
+    .main{
+        width: 100%;
+        height: auto;
+    }
+    
+    .main .nav-bar .cont{
+         font-size: 20px;
+         color: green   ;
+         border:1px solid green;
+        float: right;
+        display: flex;
+        left: 20px;
+        border-radius: 5px;
+         padding: 5px;
+         margin:20px 10px  ;
+    }
+    .main .nav-bar ul{
+        width: 100%;
+        padding: 0%;
+        background-color: white;
+        display:none;
+        margin-top: -15px;
+    }
+    .main .nav-bar ul li{
+        display: block;
+        background-color: white;
+        width: 100%; 
+    }
+    .about-me{
+        width: 100%;
+        overflow: hidden;
+    }
+    .about-me .about{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+    .body .row-2{
+        width: 100%;
+        height: auto;
+        /* background-color: darkblue; */
+        padding:10px;
+        display: flex;
+        flex-flow: row wrap;
+        font-family: 'Nunito', sans-serif;
+        justify-content: center;
+        
+    }
+    .body .row-2 .row-1{
+        width: 30%;
+        height: auto;
+        /* background-color: tan; */
+        margin: 25px;
+        /* padding:20px 0px 0px 0px; */
+    }
+    .my-Services .title{
+        width: 100%;
+        height: auto;
+    }
+    .my-Services{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        flex-flow: row nowrap;
+        overflow: hidden;
+        
+        
+    }
+    .my-Services .what-i-can-do{
+        margin: 0px 0px 0px 40px;
+    }
+    .portfolio{
+        width: 100%;
+        height: auto;
+        /* background-color: tan; */
+        overflow: hidden;
+        
+    }
+    .contact-me .bottom .left input{
+        width: 340px;
+        border-radius: 5px;
+        border: 1px solid rgba(128, 125, 125, 0.616);
+        height: 30px;
+        margin-left: 5px;
+        padding-left: 5px;
+        font-size: 12px;
+        margin-bottom: 10px;
+        
+    
+    }
+    textarea{
+        width: 340px;
+        height: 70px;
+        border-radius: 5px;
+        padding: 5px 0px 0px 5px;
+        font-size: 12px;
+        margin-left: 5px;
+    
+    }
+    .portfolio .body .left img{
+        width: 100%;
+        height: 75%;
+    }
+
+
+}
+
+/* mobile view begins  */
+@media only screen and (max-width: 400px) {
+    .body .row-2{
+        width: 100%;
+        height: auto;
+        /* background-color: darkblue; */
+        /* padding:10px;
+        padding-left: 20px; */
+        display: flex;
+        flex-flow: row wrap;
+        font-family: 'Nunito', sans-serif;
+        justify-content: center;
+        
+    }
+    .body .row-2 .row-1 {
+        width: 100%;
+        height: auto;
+        /* background-color: tan; */
+        margin-left: 5px;
+        margin-right: 35px;
+        margin-top: -1px;
+        /* padding: 20px 0px 0px 0px; */
+    }
+
+    .my-Services{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        flex-flow: row nowrap;
+        overflow: hidden;
+        
+        
+    }
+    .my-Services .what-i-can-do{
+        margin: 0px 0px 0px 20px;
+    }
+    .my-Services .title h1{
+        font-size: 30px;
+        font-weight: normal;
+    }
+    .portfolio .body{
+        width: 100%;
+        height: auto;
+        /* background-color: darkblue; */
+        display: flex;
+        flex-flow: row wrap;
+        padding: 40px 0px 40px 15px;
+        border-top: 0.2px solid rgba(128, 128, 128, 0.349);
+        border-bottom: 0.2px solid rgba(128, 128, 128, 0.349);
+        /* margin: 15px 0px 15px 0px; */
+    }
+    .portfolio .body .left{
+        width: 100%;
+        height: 100%;
+        margin-right: 30px;
+        
+    }
+    .portfolio .body .right{
+        width: 100%;
+        height: 100%;
+        margin-right: 30px;
+    }
+    .portfolio .body .right .btn{
+        padding: 10px 25px;
+        background-color: green;
+        border-radius: 25px;
+        float: left;
+        color: white;
+        font-weight: normal;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+     .right-img{
+        margin-left: -40px;
+        
+    }
+    .portfolio .body .left img .right-img{
+       margin-left: 20px;
+    }
+    .testimonial {
+        width: 100%;
+        height: auto;
+        /* background-color: tan; */
+        padding: 15px 0px 15px 0px;
+    }
+    .testimonial .testimonies {
+        width: 100%;
+        height: auto;
+        /* background-color: cyan; */
+        margin-top: 15px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .testimonial .testimonies .card {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        margin: 0px 10px 10px 10px;
+        border-radius: 15px;
+        padding: 20px;
+        font-family: 'Nunito', sans-serif;
+        border: 0.5px solid rgba(128, 128, 128, 0.534);
+    }
+    .contact-me {
+        width: 100%;
+        height: auto;
+        /* background-color: tan; */
+        padding: 15px 0px 15px 0px;
+    }
+    .contact-me .bottom {
+        width: 100%;
+        height: auto;
+        /* background-color: tan; */
+        margin-top: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .contact-me .bottom .left {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        margin-left: 20px;
+        justify-content: center;
+    }
+    .contact-me .bottom .right {
+        width: 100%;
+        height: auto;
+        /* background-color: blue; */
+        margin: 20px;
+    }
+}
+/* mobile view ends */
+
+
+
+
+
